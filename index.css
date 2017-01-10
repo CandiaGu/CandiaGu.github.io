@@ -1,0 +1,18 @@
+
+
+.text{
+	background-color: red;
+}
+.panel{
+	background-color: red;
+	padding: 40px;
+}
+.panel:hover{
+	background-color: black;
+
+}
+#title {
+	color:blue;
+	font-weight: bold;
+	margin: 40px
+}
