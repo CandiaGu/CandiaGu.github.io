@@ -1,88 +1,180 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-  		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+<!-- This is a comment -->
+	<title>CG</title>
+	<meta charset="utf-8"> 
+	<!--font-->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- jQuery UI library -->
+	<script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<!-- custom stylesheet -->
+	<link rel="stylesheet" type= "text/css" href="main2.css">
+	<!-- javascript -->
+	<script type="text/javascript" src="script.js"></script>
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="hello.js">
-		</script>
-		<title>Website</title>
-		<link rel="stylesheet" type="text/css" href = "index.css">
-	</head>
+	
 
-	<body>
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+	
+</head>
+<body>
+	<div class="side">
+		<a class = "vertical-text" id="about">about</a>
+		<a href="#top"><img src="../images/logosm.png" id = "logo"></a>
+	</div>
+	<div class="page-header" id = 'top'>
+			<h1></h1>
+	</div>
+	
+	<div class="jumbotron vertical-center">
+		
+			<div id= "stripe"><img src = "../images/stripe3.png" ></div>
+			<h1 class = "overlay" style= "text">Candia Gu</h1>
+			
+			
+	</div>
+	
+	<div class = "row">
+		<div class = "col-sm-3"></div>
+		<div class = "col-sm-6">engineering student @ carnegie mellon university</div>
+		<div class = "col-sm-3"></div>
+	</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-		<div class="text" id="title">Website</div>
+	<div class = "row">
+		<div class = "col-sm-4" id = "portfolio"><a>portfolio</a></div>
+		<div class = "col-sm-4 underline"><a>experience</a></div>
+		<div class = "col-sm-4 underline"><a>interests</a></div>
+	</div>
 
-		<div class = "text">yes</div>
-		<div class = "panel col-md-4 col-sm-6 col-xs-12">
-			<div>
-			woah
+	<div style= "margin-right:40vw;margin-left:40vw; border-bottom: solid;">
+
+	<h2 class = "oblique" id="hl">Highlights</h2>
+	</div>
+	
+	<div id="menu">
+
+		<h3 >SOFTWARE</h3>
+		<div>
+		<div class = "row">
+			<div class = "col-sm-1" ></div>
+			<div class = "col-sm-2 projectTitle" >
+			<h2>title name blah blah blah</h2>
+			<h4>date</h4>
+			</div>
+			<div class = "col-sm-6 gallery vertical-center"><img src= "../images/profile.png"></div>
+			<div class = "col-sm-3">
+				<p>
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				</p>
 			</div>
 		</div>
-		<div class = "panel col-md-4 col-sm-6 col-xs-12">
-		other thing
-			<div>
-			woah
+		<div class="row">
+			<div class = "col-sm-4"></div>
+			<div class = "col-sm-4" ><p style = "text-align:center;"><a href="#">see more...</a></p></div>
+			<div class = "col-sm-4"></div>
+		</div>
+		</div>
+		<h3>HARDWARE</h3>
+
+				<div>
+		<div class = "row">
+			<div class = "col-sm-1" ></div>
+			<div class = "col-sm-2 projectTitle" >
+			<h2>title name blah blah blah</h2>
+			<h4>date</h4>
+			</div>
+			<div class = "col-sm-6 gallery vertical-center"><img src= "../images/profile.png"></div>
+			<div class = "col-sm-3">
+				<p>
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				</p>
 			</div>
 		</div>
-	</body>
+		<div class="row">
+			<div class = "col-sm-4"></div>
+			<div class = "col-sm-4" ><p style = "text-align:center;"><a href="#">see more...</a></p></div>
+			<div class = "col-sm-4"></div>
+		</div>
+		</div>
+		<h3>ART(WARE)</h3>
+
+				<div>
+		<div class = "row">
+			<div class = "col-sm-1" ></div>
+			<div class = "col-sm-2 projectTitle" >
+			<h2>title name blah blah blah</h2>
+			<h4>date</h4>
+			</div>
+			<div class = "col-sm-6 gallery vertical-center"><img src= "../images/profile.png"></div>
+			<div class = "col-sm-3">
+				<p>
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				description blah blah blah
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class = "col-sm-4"></div>
+			<div class = "col-sm-4" ><p style = "text-align:center;"><a href="#">see more...</a></p></div>
+			<div class = "col-sm-4"></div>
+		</div>
+		</div>
+
+	</div>
+	<div id="aboutPG">
+	<h2>Hello,</h2>
+	<p>
+	-
+	</p>
+	<p >I’m an electrical and computer engineering student at Carnegie Mellon University in Pittsburgh, Pennsylvania.
+	</p>
+	<p>Although I do love engineering, I’ve done art since I was kid, if you count the scribbly mess that were my “works”.
+	</p> 
+	<p>And now, I combine both art and engineering to make cool stuff…or something like that. Please enjoy my pieces as much as I did making them. :D
+	</p>
+	<p>
+	-
+	</p>
+	<p>
+	Let’s get in touch if you have any opportunities or cool projects!
+	</p>
+	<div>
+	<h3>Candia Gu</h3>
+	Candia.D.Gu@gmail.com
+	</div>
+	</div>
+	<div class="page-footer">
+			<div class = 'row'>
+				<div class = "col-sm-8"></div>
+				<div class = "col-sm-1"><a href="#">github</a></div>
+				<div class = "col-sm-1"><a href="#">linkedin</a></div>
+				<div class = "col-sm-2"></div>
+			</div>
+	</div>
+</body>
+
+
+
 </html>
