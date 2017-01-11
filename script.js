@@ -17,7 +17,8 @@ $(document).ready(function() {
     }, 1000);
 	});
 	$('#menu').accordion({
-		collapsible: true
+		collapsible: true;
+		console.log("wut")
 	});
 	// $('.ui-accordion-header').click(function(){
 	// 	$(this).css('color', 'black')
