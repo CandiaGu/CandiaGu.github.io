@@ -82,9 +82,8 @@ a:visited{
 
 }
 .gallery{
-	width:50vw;
-	height:50vh;
-	/*display: flex;*/
+	object-fit: cover;
+	max-height: 30vw;
 
 
 }
