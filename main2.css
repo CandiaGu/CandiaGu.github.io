@@ -84,7 +84,7 @@ a:visited{
 .gallery{
 	object-fit: cover;
 	max-width:100%;
-	max-height: 50vw; 
+	min-height: 50%; 
 	
 
 
