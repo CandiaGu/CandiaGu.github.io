@@ -19,6 +19,9 @@ $(document).ready(function() {
 	$('#menu').accordion({
 		collapsible: true
 	});
+	$('.sm').click(function(){
+		alert("Coming soon!");
+	})
 	// $('.ui-accordion-header').click(function(){
 	// 	$(this).css('color', 'black')
 	// 	/*Click State 2 finish*/
