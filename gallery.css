@@ -1,6 +1,6 @@
 #photos {
    /* Prevent vertical gaps */
-   line-height: 0;
+   line-height: 20px;
    
    -webkit-column-count: 4;
    -webkit-column-gap:   20px;
