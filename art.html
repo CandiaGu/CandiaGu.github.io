@@ -21,6 +21,8 @@
 	<link rel="stylesheet" type="text/css" href="gallery.css">
 	<!-- javascript -->
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="modal.js"></script>
+
 	
 </head>
 <body>
@@ -38,7 +40,19 @@
 
 	</div>
 	<section id="photos">
-		<img src = "../portfolio/Astronaut.png">
+		<img id="myImg" src = "../portfolio/Astronaut.png" alt = "astronaut">
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+  		<!-- The Close Button -->
+  		<span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+  		<!-- Modal Content (The Image) -->
+  		<img class="modal-content" id="img01">
+
+  		<!-- Modal Caption (Image Text) -->
+  		<div id="caption"></div>
+	</div>
 		<img src = "../portfolio/Astronaut2.png">
 		<img src = "../portfolio/Astronaut3.png">
 		<img src = "../portfolio/Astronaut4.png">
