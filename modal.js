@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	$('#p1').click(function(){
+	$('.p1').click(function(){
 
 		$('html, body').animate({
         scrollTop: $("#p1d").offset().top
@@ -79,7 +79,7 @@ $(document).ready(function() {
         scrollTop: $("#p13d").offset().top
     }, 1000);
 	});
-	$('#p14').click(function(){
+	$('.p14').click(function(){
 
 		$('html, body').animate({
         scrollTop: $("#p14d").offset().top
