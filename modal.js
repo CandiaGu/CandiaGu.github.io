@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
-	$('#about').click(function(){
+	$('#p1').click(function(){
 
 		$('html, body').animate({
-        scrollTop: $("#aboutPG").offset().top
+        scrollTop: $("#p1d").offset().top
     }, 1000);
 	});
 
