@@ -1,17 +1,11 @@
-// Get the modal
-var modal = document.getElementById('myModal');
+$(document).ready(function() {
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-$('.myImg').click(function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    $('#captionText').innerHTML = this.alt;
-});
+	$('#about').click(function(){
+
+		$('html, body').animate({
+        scrollTop: $("#aboutPG").offset().top
+    }, 1000);
+	});
 
 
-// When the user clicks on <span> (x), close the modal
-$(".close").click(function() { 
-  modal.style.display = "none";
 });
